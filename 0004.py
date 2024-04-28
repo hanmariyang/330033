@@ -45,7 +45,7 @@ def cos_sim_index_plus(index_num,cosine_sim,filtered_df_plus):
 ##### 메인 함수 #####
 def main():
 
-    st.set_page_config(page_title='recc',layout='wide')
+    st.set_page_config(page_title='채용공고추천',layout='wide')
     font_prop = load_font("NanumGothic.ttf")
     # Session state 초기화
     if 'state' not in st.session_state:
