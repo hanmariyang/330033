@@ -537,16 +537,7 @@ def main():
         
 
         
-        start4=st.button('재택 가능 공고 확인',key='4')
     
-        if start4:
-            
-            filtered_remote=df_remote[(df_remote['재택여부'] == 1)]
-            filtered_remote=filtered_remote[['기업이름', '포지션이름', '마감일', '경력_min', '경력_max', '채용형태', 
-                 '근무장소 시', '근무장소 구','주요업무',  '자격요건', '우대사항','복지', '기업소개', '표준산업분류','사원 수', '기업 평균 연봉','기업유형',
-                    '매출액','하이라이트+태그', '퇴사', '입사', '링크']]
-            st.dataframe(data=filtered_remote)
-
 
 
 
